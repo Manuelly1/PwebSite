@@ -1,8 +1,9 @@
 import styles from "../styles/Button.module.css";
+import React from "react";
 
-export function Button({ children, ...props }) { 
+export default function Button({ children }) { 
     return (
-        <button className={styles.button} {...props}>
+        <button className={styles.button}>
             {children}
         </button>
     );

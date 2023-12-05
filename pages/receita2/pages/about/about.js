@@ -1,6 +1,6 @@
 import styles from "../styles/About.module.css";
 
-export function About() {
+export default function About() {
   return (
     <div>
         <h1>

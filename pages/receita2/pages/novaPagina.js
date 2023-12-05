@@ -1,8 +1,7 @@
-import { About } from "./about/about";
-import { Contact } from "./user/contact";
-import { Footer } from "./elements/footer";
-import { Button } from "./elements/button";
+import Footer from "./elements/footer";
+import Button from "./elements/button";
 import styles from "./styles/novaPagina.module.css";
+import React from 'react';
 
 export default function Main(){
     return (
@@ -10,9 +9,9 @@ export default function Main(){
             <h1 className={styles.titleMain}>
                 Contrate os nossos serviços de assistência!
             </h1>
-            <Button>Sobre</Button>
-            <Button>Contato</Button>
+            <Button children="teste" />
+            <Button children="contato" />
             <Footer />
         </div>
-    )
+  )
 }

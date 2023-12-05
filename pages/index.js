@@ -1,7 +1,7 @@
 import { SiteCard } from "./siteCard/siteCard";
-import styles from "./styles/main.module.css";
+import styles from "./styles/index.module.css";
 
-export default function Main() {
+export default function Index() {
     return (
         <div className={styles.pagPrincipal}>
             <h1>Receitas de Next.js</h1>

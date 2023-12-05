@@ -8,15 +8,11 @@ const fetcher = async (url) => {
     return json;
 };
 
-export default function Details() {
+export default function Details({id}) {
     const router = useRouter();
-    const { id } = router.query;
+    const {query} = router;
 
-    if (!id) {
-        return <div>Carregando...</div>;
-    }
-
-    const url = `http://www.omdbapi.com/?apikey=a1705ee9&i=${id}`;
+    const url = `http://www.omdbapi.com/?apikey=a1705ee9&i=${query.id}`;
     const { data, error } = useSWR(url, fetcher);
 
     if (error) return <div>Erro ao carregar o conteúdo...</div>;

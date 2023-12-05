@@ -9,8 +9,8 @@ export default function Main(){
             <h1 className={styles.titleMain}>
                 Contrate os nossos serviços de assistência!
             </h1>
-            <Button children="teste" />
-            <Button children="contato" />
+            <Button children="Teste" />
+            <Button children="Contato" />
             <Footer />
         </div>
   )

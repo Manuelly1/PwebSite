@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import Link from "next/link";
 import useSWR from "swr";
 import styles from "../styles/movies2.module.css";
 
@@ -26,17 +27,20 @@ function MovieLink({ movie2 }) {
 
     const handleClick = () => {
         router.push({
-            pathname: "/details",
-            query: { id: movie2.imdbID }
+            pathname: "/receita4/Q1/",
+
         });
     };
 
     return (
         <div className={styles.divPage}>
             <div className={styles.divMovies}>
-                <div onClick={handleClick} style={{ cursor: "pointer" }}>
-                    {movie2.Title} --- {movie2.Year}
-                </div>
+                <Link href={`/receita4/pages/Q1/${movie2.imdbID}`}>
+                    <p style={{ cursor: "pointer" }}>
+                        {movie2.Title} --- {movie2.Year}
+                    </p>
+                </Link>
+                
             </div>
         </div>
     );

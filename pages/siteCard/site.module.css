@@ -1,20 +1,26 @@
 .divPrincipal {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+    height: 75vh;
+    background-color: #aaacff;
+}
+
+.receitasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link {
     text-decoration: none;
+    margin-bottom: 20px; 
 }
 
 .card {
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    width: 300px; 
+    padding: 25px;
+    border-radius: 10px;
     transition: transform 0.3s;
 }
 
@@ -23,18 +29,5 @@
 }
 
 .card:nth-child(1) {
-    background-color: #ffd700; 
+    background-color: #c7d4fe;
 }
-
-.card:nth-child(2) {
-    background-color: #87ceeb; 
-}
-
-.card:nth-child(3) {
-    background-color: #98fb98; 
-}
-
-.card:nth-child(4) {
-    background-color: #ffa07a; 
-}
-  

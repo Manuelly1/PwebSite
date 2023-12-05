@@ -1,0 +1,16 @@
+.pagPrincipal {
+    background-color: #3a3b66;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.pagPrincipal h1 {
+    background-color: #3f41b9;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}

@@ -1,6 +1,6 @@
 import { User } from "./user";
 import { About } from "./about";
-import style from '../style/style.module.css';
+import style from './style/style.module.css';
 
 export default function Home() {
     return (

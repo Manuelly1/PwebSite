@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../styles/movies.module.css";
+import styles from "./styles/movies.module.css";
 
 export default function Movies({ startData }) {
   const [searchQuery, setSearchQuery] = useState("");

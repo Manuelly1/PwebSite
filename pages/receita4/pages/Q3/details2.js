@@ -1,4 +1,4 @@
-import styles from "../../styles/details.module.css";
+import styles from "../styles/details.module.css";
 
 export default function Details2({ data, error }) {
     if (error) {

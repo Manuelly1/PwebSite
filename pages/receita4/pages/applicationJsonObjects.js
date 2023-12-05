@@ -1,5 +1,5 @@
 import JsonObjects from "../components/jsonObjects";
-import styles from "../styles/application.module.css";
+import styles from "./styles/application.module.css";
 
 export default function ApplicationJsonObjects() {
     return (

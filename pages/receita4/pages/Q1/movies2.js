@@ -27,8 +27,7 @@ function MovieLink({ movie2 }) {
 
     const handleClick = () => {
         router.push({
-            pathname: "/receita4/Q1/",
-
+            pathname: "/receita4/pages/Q1/",
         });
     };
 
@@ -40,7 +39,6 @@ function MovieLink({ movie2 }) {
                         {movie2.Title} --- {movie2.Year}
                     </p>
                 </Link>
-                
             </div>
         </div>
     );

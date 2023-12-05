@@ -30,3 +30,6 @@ export default function Details({id}) {
         </div>
     );
 }
+
+// se der problema na parte de img é porque terei que substituir por 
+// Image, que é uma tag do próprio next, como o Link

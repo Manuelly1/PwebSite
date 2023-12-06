@@ -25,12 +25,6 @@ async function fetcher(url) {
 function MovieLink({ movie2 }) {
     const router = useRouter();
 
-    const handleClick = () => {
-        router.push({
-            pathname: "/receita4/pages/Q1/",
-        });
-    };
-
     return (
         <div className={styles.divPage}>
             <div className={styles.divMovies}>

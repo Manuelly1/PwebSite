@@ -20,7 +20,7 @@ export default function Details2({ data, error }) {
 
 export async function getServerSideProps(context) {
     const { id } = context.query;
-    const url = `http://www.omdbapi.com/?apikey=a1705ee9&i=${id}`;
+    const url = `https://www.omdbapi.com/?apikey=a1705ee9&i=${id}`;
 
     try {
         const res = await fetch(url);
